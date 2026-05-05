@@ -385,12 +385,6 @@ parameters:
 			path: src/Mpdf.php
 
 		-
-			message: '#^Variable \$b2 might not be defined\.$#'
-			identifier: variable.undefined
-			count: 4
-			path: src/Mpdf.php
-
-		-
 			message: '#^Variable \$bbox_bb might not be defined\.$#'
 			identifier: variable.undefined
 			count: 2
@@ -1136,12 +1130,6 @@ parameters:
 
 		-
 			message: '#^Variable \$type might not be defined\.$#'
-			identifier: variable.undefined
-			count: 3
-			path: src/TTFontFile.php
-
-		-
-			message: '#^Variable \$up might not be defined\.$#'
 			identifier: variable.undefined
 			count: 3
 			path: src/TTFontFile.php
